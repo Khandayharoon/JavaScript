@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const PORT = 3001;
 
 app.use((req,res,next)=>{
     console.log(`i am middleware`);
@@ -18,4 +19,6 @@ app.get('/profile/:username',(req,res)=>{
     res.send(`i am from ${req.params.username}`);
 });
 
-app.listen(5000);
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
