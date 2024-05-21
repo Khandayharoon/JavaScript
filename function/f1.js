@@ -20,4 +20,4 @@ const productExp = (n1, n2) =>{
 //Another way
 const pro = (n1,n2) => n1*n2;
 console.log (`Arrow Function :-  ${productExp (5,5)}`)   //25 output
-console.log (`Another Arrow Function :-  ${pro (11,11)}`)   //25 output
+console.log (`Another Arrow Function :-  ${pro (11,11)}`)   //25 outputnbbjh
