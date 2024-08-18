@@ -1,0 +1,68 @@
+.white{
+  color: white !important;
+}
+
+.black{
+  color: black;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+ input.transparent-input{
+       background-color:rgba(0,0,0,0) !important;
+       border:none !important;
+    }
+
+    .navbar{
+      border-bottom: 2px solid white;
+      color: white;
+    }
+
+.dog{
+      font-size: 2.5rem;
+  }
+  .broder{
+    outline: white 2px solid;
+  }
+  .navs-link{
+    font-size: 0.9 rem;
+     transition: background-color 0.4s ease, border-radius 0.2s ease;
+     padding: 5px;
+  }
+  .navs-link:hover{
+    background-color: green;
+    border-radius: 10px;
+  }
+  .hovers:hover{
+    font-size:2.51rem;
+    color: green !important;
+  }
+  .hoverdog:hover{
+    padding-left: 20px;
+  }
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
