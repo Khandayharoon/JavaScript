@@ -1,0 +1,49 @@
+.container{
+    /* background-color: brown; */
+    padding: 5px 50px 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.todo{
+    /* background-color: aqua; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 9px 0 5px 40px;
+}
+.secondaryText{
+    color: rgb(80, 78, 78);
+}
+
+.btn{
+    /* background-color: blue; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 10px 20px 20px;
+  
+}
+.btn .btnone{
+    width: 200px;
+}
+.btn .btntwo{
+    width: 200px;
+}
+
+/* styles.css */
+.todo-item {
+    margin: 10px 0;
+  }
+  
+  .todo-item.completed h3,
+  .todo-item.completed p {
+    text-decoration: line-through; 
+    text-decoration-thickness: 1px;
+    text-decoration-color: green;
+    text-decoration-style: dashed;
+  }
+  
